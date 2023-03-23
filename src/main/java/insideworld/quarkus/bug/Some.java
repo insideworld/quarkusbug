@@ -1,5 +1,5 @@
 package insideworld.quarkus.bug;
 
-public interface Some<K, P> {
+public interface Some<K> {
 
 }

@@ -7,9 +7,9 @@ import java.util.List;
 @Singleton
 public class BeanB {
 
-    private final List<Some<?, ?>> somes;
+    private final List<Some<?>> somes;
 
-    public BeanB(@All List<Some<?,?>> somes) {
+    public BeanB(@All List<Some<?>> somes) {
         this.somes = somes;
     }
 
